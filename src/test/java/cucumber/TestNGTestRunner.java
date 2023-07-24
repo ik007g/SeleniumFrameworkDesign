@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
         features="src/test/java/cucumber",
         glue="rahulshettyacademy.stepDefinitions",
         monochrome=true,
-        tags = "",
+        tags = "@Regression",
         plugin= {"html:target/cucumber.html"})
 
 
